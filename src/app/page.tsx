@@ -1,8 +1,16 @@
+import Button from "@/components/Button";
 import Typography from "@/components/Typography";
 
 export default function Home() {
   return (
     <>
+      <Button className="mb-8">Button</Button>
+      <Button className="mb-8" fullWidth>
+        Button
+      </Button>
+      <Button className="mb-8" fullWidth disabled>
+        Button
+      </Button>
       <Typography.Heading level={1}>Heading 1</Typography.Heading>
       <Typography.Heading level={2}>Heading 2</Typography.Heading>
       <Typography.Heading level={3}>Heading 3</Typography.Heading>
