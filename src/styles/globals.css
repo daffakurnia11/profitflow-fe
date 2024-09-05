@@ -5,3 +5,7 @@
 @layer base {
   @import url("./fonts/style.css");
 }
+
+@layer components {
+  @import url("./components/style.css");
+}

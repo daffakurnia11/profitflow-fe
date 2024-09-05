@@ -1,0 +1,7 @@
+.typography-heading {
+  @apply font-inter font-bold;
+}
+
+.typography-text {
+  @apply font-inter font-normal;
+}
