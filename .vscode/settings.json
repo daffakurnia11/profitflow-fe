@@ -1,3 +1,9 @@
 {
-  "conventionalCommits.scopes": ["font", "typography", "component"]
+  "conventionalCommits.scopes": [
+    "font",
+    "typography",
+    "component",
+    "dependencies",
+    "hero"
+  ]
 }
