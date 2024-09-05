@@ -3,6 +3,7 @@ import Typography from "../Typography";
 import Button from "../Button";
 import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
 import { AiOutlineMenu } from "react-icons/ai";
+import Link from "next/link";
 
 export default function Navbar(): React.ReactElement {
   return (
@@ -26,7 +27,9 @@ export default function Navbar(): React.ReactElement {
           <Typography.Paragraph size="lg">Contact</Typography.Paragraph>
         </div>
         <div>
-          <Button fullWidth>Login</Button>
+          <Link href={"/login"}>
+            <Button fullWidth>Login</Button>
+          </Link>
         </div>
       </div>
       <Menu
@@ -61,7 +64,9 @@ export default function Navbar(): React.ReactElement {
             </Typography.Paragraph>
           </MenuItem>
           <MenuItem>
-            <Button fullWidth>Login</Button>
+            <Link href={"/login"}>
+              <Button fullWidth>Login</Button>
+            </Link>
           </MenuItem>
         </MenuItems>
       </Menu>

@@ -5,16 +5,6 @@ import Image from "next/image";
 export default function Hero(): React.ReactElement {
   return (
     <div className="relative h-[800px] flex flex-col justify-center">
-      <div className="absolute -z-[1] top-0 left-10 -translate-x-1/2 -translate-y-1/2 max-w-[600px]">
-        <Image
-          src={"/img/blobs1.svg"}
-          alt="blobs"
-          width={0}
-          height={0}
-          sizes="100vw"
-          style={{ width: "100%", height: "auto" }}
-        />
-      </div>
       <div className="absolute -z-[1] bottom-1/4 right-0 translate-y-1/2 rotate-60 max-w-[300px] md:max-w-[400px]s">
         <Image
           src={"/img/blobs2.svg"}

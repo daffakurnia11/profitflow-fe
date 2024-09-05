@@ -62,15 +62,15 @@ export default function Contact(): React.ReactElement {
       </div>
       <div className="max-w-[500px] mx-auto flex flex-col gap-5 mt-8 px-10">
         <input
-          className="w-full p-5 border border-solid border-stone-500 rounded-lg"
+          className="w-full px-5 py-3 border border-solid border-stone-500 rounded-lg"
           placeholder="Your name"
         />
         <input
-          className="w-full p-5 border border-solid border-stone-500 rounded-lg"
+          className="w-full px-5 py-3 border border-solid border-stone-500 rounded-lg"
           placeholder="Your email"
         />
         <textarea
-          className="w-full p-5 border border-solid border-stone-500 rounded-lg"
+          className="w-full px-5 py-3 border border-solid border-stone-500 rounded-lg"
           placeholder="Type message here.."
           rows={4}
         />
