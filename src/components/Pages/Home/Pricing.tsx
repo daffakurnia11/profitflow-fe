@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Pricing(): React.ReactElement {
   return (
-    <div className="container pb-20 flex flex-col justify-center">
+    <div className="container pb-20">
       <Typography.Heading level={2} className="text-center !font-semibold">
         Pricing
       </Typography.Heading>
