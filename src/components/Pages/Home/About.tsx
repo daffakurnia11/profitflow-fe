@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function About(): React.ReactElement {
   return (
-    <div className="relative py-20 px-10">
+    <div className="relative px-10 pb-20">
       <div className="md:block hidden absolute -z-[1] top-0 xl:left-[200px] lg:left-[130px] md:left-[75px] -translate-x-1/2 max-w-[600px] -rotate-[3deg]">
         <Image
           src={"/img/blobs3.svg"}
@@ -16,7 +16,7 @@ export default function About(): React.ReactElement {
       </div>
       <div className="container md:grid grid-cols-3 items-center min-h-[500px]">
         <div className="col-span-1 flex flex-col justify-center">
-          <div className="flex justify-center">
+          <div className="flex justify-center pb-8">
             <Typography.Heading
               level={2}
               className="!text-4xl md:text-slate-50"
@@ -26,7 +26,7 @@ export default function About(): React.ReactElement {
             </Typography.Heading>
           </div>
         </div>
-        <div className="col-span-2 max-w-[630px] mx-auto md:pt-24 pt-8">
+        <div className="col-span-2 max-w-[630px] mx-auto md:pt-24 mt-18">
           <Typography.Paragraph size="lg" className="!font-semibold">
             Our ERP system is designed to help business owners streamline their
             operations, manage inventory efficiently, and maximize profits. With
