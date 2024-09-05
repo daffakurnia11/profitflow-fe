@@ -1,6 +1,6 @@
+import * as React from "react";
 import { ButtonProps } from "@/types/Button";
 import classNames from "classnames";
-import React from "react";
 
 export default function Button({
   as = "button",

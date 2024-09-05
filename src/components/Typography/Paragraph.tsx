@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import type { ParagraphProps } from "@/types/Typography";
 import classNames from "classnames";
 

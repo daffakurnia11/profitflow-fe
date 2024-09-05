@@ -1,6 +1,6 @@
+import * as React from "react";
 import type { HeadingProps } from "@/types/Typography";
 import classNames from "classnames";
-import React from "react";
 
 /**
  * Props for the Heading component.
