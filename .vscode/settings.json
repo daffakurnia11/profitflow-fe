@@ -5,6 +5,7 @@
     "component",
     "dependencies",
     "hero",
-    "about"
+    "about",
+    "pricing"
   ]
 }

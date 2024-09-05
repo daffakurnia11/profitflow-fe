@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function About(): React.ReactElement {
   return (
-    <div className="relative">
+    <div className="relative py-20 px-10">
       <div className="md:block hidden absolute -z-[1] top-0 xl:left-[200px] lg:left-[130px] md:left-[75px] -translate-x-1/2 max-w-[600px] -rotate-[3deg]">
         <Image
           src={"/img/blobs3.svg"}
