@@ -6,7 +6,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 export default function Contact(): React.ReactElement {
   return (
-    <div className="container mb-20">
+    <div className="container mb-20" id="contact">
       <Typography.Heading level={2} className="text-center !font-semibold">
         Contact Us
       </Typography.Heading>

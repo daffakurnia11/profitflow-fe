@@ -15,16 +15,24 @@ export default function Navbar(): React.ReactElement {
       </div>
       <div className="md:flex hidden items-center gap-8">
         <div>
-          <Typography.Paragraph size="lg">Home</Typography.Paragraph>
+          <Link href={"/"}>
+            <Typography.Paragraph size="lg">Home</Typography.Paragraph>
+          </Link>
         </div>
         <div>
-          <Typography.Paragraph size="lg">About</Typography.Paragraph>
+          <Link href={"/#about"}>
+            <Typography.Paragraph size="lg">About</Typography.Paragraph>
+          </Link>
         </div>
         <div>
-          <Typography.Paragraph size="lg">Pricing</Typography.Paragraph>
+          <Link href={"/#pricing"}>
+            <Typography.Paragraph size="lg">Pricing</Typography.Paragraph>
+          </Link>
         </div>
         <div>
-          <Typography.Paragraph size="lg">Contact</Typography.Paragraph>
+          <Link href={"/#contact"}>
+            <Typography.Paragraph size="lg">Contact</Typography.Paragraph>
+          </Link>
         </div>
         <div>
           <Link href={"/login"}>
@@ -44,24 +52,32 @@ export default function Navbar(): React.ReactElement {
           className="px-5 py-3 absolute flex flex-col gap-4 right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 transition focus:outline-none data-[closed]:scale-95 data-[closed]:transform data-[closed]:opacity-0 data-[enter]:duration-100 data-[leave]:duration-75 data-[enter]:ease-out data-[leave]:ease-in"
         >
           <MenuItem>
-            <Typography.Paragraph size="lg" className="text-center">
-              Home
-            </Typography.Paragraph>
+            <Link href={"/"}>
+              <Typography.Paragraph size="lg" className="text-center">
+                Home
+              </Typography.Paragraph>
+            </Link>
           </MenuItem>
           <MenuItem>
-            <Typography.Paragraph size="lg" className="text-center">
-              About
-            </Typography.Paragraph>
+            <Link href={"/#about"}>
+              <Typography.Paragraph size="lg" className="text-center">
+                About
+              </Typography.Paragraph>
+            </Link>
           </MenuItem>
           <MenuItem>
-            <Typography.Paragraph size="lg" className="text-center">
-              Pricing
-            </Typography.Paragraph>
+            <Link href={"/#pricing"}>
+              <Typography.Paragraph size="lg" className="text-center">
+                Pricing
+              </Typography.Paragraph>
+            </Link>
           </MenuItem>
           <MenuItem>
-            <Typography.Paragraph size="lg" className="text-center">
-              Contact
-            </Typography.Paragraph>
+            <Link href={"/#contact"}>
+              <Typography.Paragraph size="lg" className="text-center">
+                Contact
+              </Typography.Paragraph>
+            </Link>
           </MenuItem>
           <MenuItem>
             <Link href={"/login"}>

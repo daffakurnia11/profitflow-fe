@@ -9,3 +9,7 @@
 @layer components {
   @import url("./components/style.css");
 }
+
+html {
+  scroll-behavior: smooth;
+}
